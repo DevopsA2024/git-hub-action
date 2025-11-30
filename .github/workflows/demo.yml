@@ -30,7 +30,7 @@ jobs:
             - name: display hello 
               run: echo hello 
     deploy_job:
-        runs-on: macros-latest
+        runs-on: macos-latest
         steps:
-            - run: echo hellow ma
+            - run: echo hellow mac
 
