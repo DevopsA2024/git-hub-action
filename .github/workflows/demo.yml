@@ -38,6 +38,7 @@ jobs:
               run: echo hello 
             - uses: actions/download-artifact@v4 
               with: 
+                name: my file
             - name: Display git-hub-action.txt
               run:  cat git-hub-action.txt
     deploy_job:
